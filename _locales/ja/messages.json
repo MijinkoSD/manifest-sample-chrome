@@ -1,0 +1,10 @@
+{
+  "extensionDescription": {
+    "message": "Chrome拡張機能のサンプルです。example.comにて動作します。",
+    "description": "descriptionに__MSG_extensionDescription__と書くことでここに設定した文章を表示できるよ。"
+  },
+  "completeLoaded": {
+    "message": "拡張機能の読み込みが完了しました。",
+    "description": "拡張機能の読み込みが完了した時に表示されるメッセージ。"
+  }
+}

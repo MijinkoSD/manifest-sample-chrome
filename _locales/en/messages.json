@@ -1,0 +1,9 @@
+{
+  "extensionDescription": {
+    "message": "This is sample for Chrome Extension. It works on exaple.com ."
+  },
+  "completeLoaded": {
+    "message": "Finished loading this extension.",
+    "description": "Message when this extension finishes loading."
+  }
+}

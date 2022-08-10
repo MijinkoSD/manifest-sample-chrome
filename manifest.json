@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Chrome拡張機能サンプル",
+    "version": "1.0.0",
+    "action": {
+        "default_title": "押すんだ！",
+        "default_popup": "popup.html"
+    },
+    "description": "__MSG_extensionDescription__", // こうすることで詳細文も多言語対応できるようになる
+    "default_locale": "en", // ブラウザ側で設定した言語の言語ファイルが存在しない場合にこの言語が読み込まれる
+    "icons": {
+        "16": "images/icon16.png",
+        "32": "images/icon32.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+    },
+    "content_scripts": [{
+        "matches": ["*://example.com/*"],
+        "run_at": "document_idle",
+        "js": ["content.js"],
+        "css": ["content.css"]
+      }
+	]
+}
